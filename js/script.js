@@ -3,7 +3,7 @@ function init(){
  
    function myEventFunction(){
 			alert( "Rami Naser:" + inn);
-			out.innerHTML = '<h2 id="textoutput" class="center">working</h2>'
+			//out.innerHTML = '<h2 id="textoutput" class="center">working</h2>'
 		}
  
   /* var inn = document.getElementById('entryinput');
@@ -13,11 +13,15 @@ function init(){
 		fc.value = "javascript worked";	*/
  
  
-var btn = document.getElementById('entrybutton')
-		//use fc.value in inspector to see the input value
-		btn.addEventListener('click',myEventFunction);
-		alert(btn.value);
-		btn.value = "javascript worked";	
+var btn = document.getElementById('entrybutton');
+		
+btn.addEventListener('click',myEventFunction);
+		
+		
+		
+		
+		/*   alert(btn.value);
+		btn.value = "javascript worked";	*/
 
 
 
