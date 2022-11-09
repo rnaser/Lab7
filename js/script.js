@@ -14,7 +14,7 @@ function init(){
 	   btn.addEventListener('click',myEventFunction);
 	   btn.addEventListener('click',function(){
 	 
-	     ban.innerHTML = ('<h2 id="textoutput" class="center">inn.value</h2>');
+	     ban.innerHTML = ('<h2 id="textoutput" class="center">(inn.value)</h2>');
        }};
  
  
