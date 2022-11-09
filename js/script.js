@@ -28,5 +28,5 @@ btn.addEventListener('click',myEventFunction);
 var out = document.getElementById('textoutput');
 
 
-
+}
 window.addEventListener('load', init);
