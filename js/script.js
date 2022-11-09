@@ -3,7 +3,8 @@ function init(){
  
   function myEventFunction(){
     alert( "Rami Naser: " + inn.value);
-	var inn = document.getElementById('entryinput');		
+	var inn = document.getElementById('entryinput');
+	inn.value = 'the script works';
 	var ban = document.getElementById('textoutput');		
 	ban.innerHTML = inn;		
 			
