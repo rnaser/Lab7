@@ -8,8 +8,9 @@ function init(){
    entrybutton.addEventListener('click',myEventFunction);
  
  
-var fc = document.getElementById('textcontrol')
+var fc = document.getElementById('entrybutton')
 		//use fc.value in inspector to see the input value
+		fc.addEventListener('click',myEventFunction);
 		alert(fc.value);
 		fc.value = "javascript worked";	
 
