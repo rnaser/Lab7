@@ -2,7 +2,7 @@ function init(){
 //add your javascrip between these two lines of code
  
   function myEventFunction(){
-    alert( "Rami Naser: " + inn.value));
+    alert( "Rami Naser: " + inn.value);
 	var inn = document.getElementById('entryinput');		
 	var ban = document.getElementById('textoutput');		
 	ban.innerHTML = inn;		
