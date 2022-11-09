@@ -2,7 +2,7 @@ function init(){
 //add your javascrip between these two lines of code
  
    function myEventFunction(){
-			alert( "Rami Naser:" + inn );
+			alert( "Rami Naser:" + inn.value );
 			
 		}
  
