@@ -10,8 +10,8 @@ function init(){
 	   
 		//use fc.value in inspector to see the input value
 		inn.addEventListener('click',myEventFunction);
-		alert(fc.value);
-		fc.value = "javascript worked";	
+		alert(inn.value);
+		inn.value = "javascript worked";	
  
  
      var btn = document.getElementById('entrybutton');
