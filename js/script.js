@@ -2,10 +2,10 @@ function init(){
 //add your javascrip between these two lines of code
  
    function myEventFunction(){
-			alert( id=entryinput);
+			alert( "hello");
 		}
  
-   entryinput.addEventListener('click',myEventFunction);
+   entrybutton.addEventListener('click',myEventFunction);
  
  
 var fc = document.getElementById('textcontrol')
