@@ -4,7 +4,7 @@ function init(){
   function myEventFunction(){
     alert( "Rami Naser: " + inn.value);
 			
-	ban.innerHTML = inn;		
+	ban.innerHTML = inn.value;		
 			
   }
  
