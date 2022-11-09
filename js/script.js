@@ -2,7 +2,7 @@ function init(){
 //add your javascrip between these two lines of code
  
    function myEventFunction(){
-			alert( "Rami Naser:" + inn);
+			alert( "Rami Naser:" );
 			//out.innerHTML = '<h2 id="textoutput" class="center">working</h2>'
 		}
  
